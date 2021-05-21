@@ -1,0 +1,18 @@
+Traccia:
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti 
+delle auto usate messe in vendita da un concessionario.
+
+
+Auto
+
+id - INT - NOTNULL - UNIQUE - AUTO_INCREMENT
+Marca - VARCHAR(25) - NOTNULL
+Modello - VARCHAR(25) - NOTNULL
+Colore - VARCHAR(30) - NOTNULL
+Descrizione - TEXT
+Anno di pubblicazione - YEAR
+Prezzo - FLOAT(12, 2) - NOTNULL
+Modelli venduti - INT
+Rating - FLOAT(3, 1)
+Poster - VARCHAR(100) - DEFAULT
+Cilindrata - MEDIUMINT - NOTNULL
